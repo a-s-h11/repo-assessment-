@@ -9,5 +9,13 @@ int main()
 	scanf("%c", &b);
 	printf("enter your age: ");
 	scanf("%d", &c);
+	if(b == 'm')
+	{
+		printf("your name is %s, gender male and %d years old", a, c);
+	}
+	else if(b == 'f')
+	{
+		printf("your name is %s, gender female and %d years old", a, c);
+	}
 }
 
