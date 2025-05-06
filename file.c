@@ -9,5 +9,9 @@ int main()
 	scanf("%c", &b);
 	printf("enter your age: ");
 	scanf("%d", &c);
+	if(b == 'o')
+	{
+		printf("your name is %s, gender other and %d years old", a, c);
+	}
 }
 
